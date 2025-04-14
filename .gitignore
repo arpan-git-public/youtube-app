@@ -1,0 +1,43 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+
+# Angular
+/frontend/youtube-app-ui/dist
+/frontend/youtube-app-ui/out-tsc
+/frontend/youtube-app-ui/node_modules
+/frontend/youtube-app-ui/node
+/frontend/youtube-app-ui/.angular
+/frontend/youtube-app-ui/.env
+/frontend/youtube-app-ui/.DS_Store

@@ -1,0 +1,26 @@
+<div class="flex w-full h-screen">
+  <div class="w-65p p-4">65%
+    <app-video-player  *ngIf="videoAvailable"  [videoUrl]="videoUrl"></app-video-player>
+    <div class=""flex flex-row items-start space-x-6 p-4>
+      <div class="w-1/5 text-lg">
+          {{videoTitle}}
+      </div>
+      <div class="w-4/5 space-y-2">
+          {{viewCount}} views
+      </div>
+      <div class="w-4/5 space-y-2">
+        <p>
+          {{videoDescription}}
+        </p>
+        <ul class="list-disc list-inside">
+          <li *ngFor="let item of videoTags">{{item}}</li>
+
+        </ul>
+      </div>
+
+    </div>
+  </div>
+  <div class="w-5p p-4">5%</div>
+  <div class="w-30p p-4">30%</div>
+  </div>
+
