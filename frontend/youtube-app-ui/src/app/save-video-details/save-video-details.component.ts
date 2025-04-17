@@ -9,7 +9,7 @@ import { AcceptedPlugin } from 'postcss';
 import { ActivatedRoute } from '@angular/router';
 import { VideoService } from '../video.service';
 import {MatSnackBar} from '@angular/material/snack-bar';
-import { VideoDto } from '../videoDto';
+import { VideoDto } from '../VideoDto';
 
 @Component({
   selector: 'app-save-video-details',

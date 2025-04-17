@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { VideoService } from '../video.service';
-import { VideoDto } from '../videoDto';
+import { VideoDto } from '../VideoDto';
 
 @Component({
   selector: 'app-featured',
