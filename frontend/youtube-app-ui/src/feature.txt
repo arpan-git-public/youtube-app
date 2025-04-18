@@ -1,0 +1,24 @@
+- Implement Home Page Component
+  - create Home page Component
+  - Create History Component
+  - Create Subscriptions Component
+  - Create Liked Videos Component
+  - Create Sidebar Component
+  - Introduce Child Routing inside Home Page Component
+  - Create Video Card Component
+  - Display Video Cards in Home, History, Subscriptions and liked Videos Component
+
+- Refactor Video Detail Page
+ - Redesign Video Detail Page
+ - Implement Subscribe/Unsubscribe functionality
+ - Implement like/dislike functionality
+ - Implement add comment functionality
+ - Implement Sidebar suggestion functionality
+
+
+- Secure our routes to prevent unauthorized access
+  - Video upload page
+  - Show login message when user access History page without logging in.
+  - Show login message when user access Subscriptions page without logging in.
+  - Show login message when user access liked videos page without logging in.
+  - Hide Subscribe and like/ dislike when user not logged in.

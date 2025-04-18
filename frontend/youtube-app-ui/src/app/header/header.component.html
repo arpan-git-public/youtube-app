@@ -1,0 +1,19 @@
+<mat-toolbar color="primary">
+
+  <mat-toolbar-row>
+    <span>Youtube App</span>
+    <span class="example-spacer"></span>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon class="example-icon" aria-hidden="false" aria-label="Video call icon">video_call</mat-icon>
+    </button>
+    <button *ngIf="isAuthenticated; else noAuth" mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+      <mat-icon class="example-icon" aria-hidden="false" aria-label="Account circle icon">account_circle</mat-icon>
+    </button>
+    <button *ngIf="isAuthenticated;" mat-button (click)="logOff()">Logout </button>
+    <ng-template #noAuth>
+      <button mat-raised-button (click)="login()">
+        Login
+      </button>
+    </ng-template>
+  </mat-toolbar-row>
+</mat-toolbar>
